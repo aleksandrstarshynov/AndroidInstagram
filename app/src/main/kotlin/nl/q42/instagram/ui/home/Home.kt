@@ -19,7 +19,7 @@ fun Home(viewState: HomeViewState) {
 }
 
 @Composable
-@Preview
+@Preview(showBackground = true)
 private fun HomePreview() {
     AppTheme {
         Home(viewState = dummyViewState)
