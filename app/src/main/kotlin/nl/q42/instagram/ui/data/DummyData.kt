@@ -9,7 +9,7 @@ val dummyBunnyItemViewState = FeedItemViewState(
     authorDescription = "Cute Animals",
     authorImage = R.drawable.author_nature,
     postDescription = "What is your favourite image? \uD83D\uDE0D 1,2,3,4 or ?", // TODO search on emoticons: all fonts/android versions?
-    postImageIds = listOf(R.drawable.post_nature, R.drawable.bunny2),
+    postImageId = R.drawable.post_nature,
     numberOfLikes = 2_374_585,
 )
 
@@ -18,7 +18,7 @@ val dummyCatItemViewState = FeedItemViewState(
     authorDescription = "Cats!",
     authorImage = R.drawable.cat_profile,
     postDescription = "Awww, look at these kitties",
-    postImageIds = listOf(R.drawable.eli, R.drawable.stijn, R.drawable.eli2),
+    postImageId = R.drawable.eli,
     numberOfLikes = 133_742,
 )
 
@@ -27,7 +27,7 @@ val dummyDogItemViewState = FeedItemViewState(
     authorDescription = "Awooo!",
     authorImage = R.drawable.dog_profile,
     postDescription = "Woof!",
-    postImageIds = listOf(R.drawable.husky), // R.drawable.sheppy, R.drawable.sleepydog,
+    postImageId = R.drawable.husky,
     numberOfLikes = 42_424_242,
 )
 

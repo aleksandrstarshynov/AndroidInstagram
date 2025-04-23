@@ -1,5 +1,6 @@
 package nl.q42.instagram.ui.home
 
+import androidx.annotation.DrawableRes
 import androidx.compose.runtime.Composable
 import nl.q42.instagram.ui.theme.AppTheme
 import nl.q42.instagram.ui.theme.PreviewLightDark
@@ -9,7 +10,7 @@ data class FeedItemViewState(
     val authorDescription: String,
     val authorImage: Int,
     val postDescription: String,
-    val postImageIds: List<Int>,
+    @DrawableRes val postImageId: Int,
     val numberOfLikes: Int,
     val canFollow: Boolean = true,
     val canLike: Boolean = true,
