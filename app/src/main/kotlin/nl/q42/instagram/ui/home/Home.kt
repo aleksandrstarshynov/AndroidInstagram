@@ -3,8 +3,9 @@ package nl.q42.instagram.ui.home
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
+import nl.q42.instagram.ui.data.dummyViewState
 import nl.q42.instagram.ui.theme.AppTheme
-import nl.q42.instagram.ui.theme.PreviewLightDark
 
 data class HomeViewState(
     val feedItems: List<FeedItemViewState>
@@ -18,9 +19,9 @@ fun Home(viewState: HomeViewState) {
 }
 
 @Composable
-@PreviewLightDark
+@Preview
 private fun HomePreview() {
     AppTheme {
-        Home(viewState = HomeViewState(listOf()))
+        Home(viewState = dummyViewState)
     }
 }
